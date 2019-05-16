@@ -1,0 +1,41 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 300000,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressUpdateNotice": false,
+      "suppressWelcomeNotice": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[javascript]": {
+      "editor.formatOnSave": true
+  },
+  "[vue]": {
+      "editor.formatOnSave": true
+  },
+  "prettier.trailingComma": "es5",
+  "prettier.eslintIntegration": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {
+          "language": "vue",
+          "autoFix": true
+      }
+  ],
+  "eslint.trace.server": "verbose",
+  "prettier.singleQuote": true,
+  "prettier.stylelintIntegration": true,
+  "stylelint.additionalDocumentSelectors": ["vue"]
+}

@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  background: $body-bg;
+}
+
+body {
+  background-color: $body-bg;
+  color: $body-color;
+  cursor: default;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  margin: 0;
+}
+
+a {
+  color: $link-color;
+  cursor: pointer;
+  text-decoration: $link-decoration;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+}

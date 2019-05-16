@@ -1,0 +1,26 @@
+{
+  "recommendations": [
+    "akamud.vscode-theme-onelight",
+    "deerawan.vscode-dash",
+    "EditorConfig.editorconfig",
+    "fabiospampinato.vscode-terminals",
+    "msjsdiag.debugger-for-chrome",
+    "rebornix.ruby",
+    "shinnn.stylelint",
+    "teabyii.ayu",
+    "abusaidm.html-snippets",
+    "jamesmaj.easy-icons",
+    "Tyriar.sort-lines",
+    "eamodio.gitlens",
+    "JakeBecker.elixir-ls",
+    "formulahendry.auto-rename-tag",
+    "esbenp.prettier-vscode",
+    "shd101wyy.markdown-preview-enhanced",
+    "PeterJausovec.vscode-docker",
+    "dbaeumer.vscode-eslint",
+    "dzannotti.vscode-babel-coloring",
+    "ms-vscode.atom-keybindings",
+    "formulahendry.auto-close-tag",
+    "octref.vetur"
+  ]
+}

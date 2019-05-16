@@ -1,0 +1,47 @@
+.small-mobile-only {
+  @media (min-width: 671px) {
+    display: none;
+  }
+}
+
+.mobile-only {
+  @media (min-width: 971px) {
+    display: none;
+  }
+}
+
+.tablet-only {
+  @media (max-width: 971px), (min-width: 1170px) {
+    display: none;
+  }
+}
+
+.desktop-only {
+  @media (max-width: 1170px) {
+    display: none;
+  }
+}
+
+.small-mobile-hidden {
+  @media (max-width: 670px) {
+    display: none;
+  }
+}
+
+.mobile-hidden {
+  @media (max-width: 970px) {
+    display: none;
+  }
+}
+
+.tablet-hidden {
+  @media (min-width: 971px) and (max-width: 1170px) {
+    display: none;
+  }
+}
+
+.desktop-hidden {
+  @media (min-width: 1170px) {
+    display: none;
+  }
+}

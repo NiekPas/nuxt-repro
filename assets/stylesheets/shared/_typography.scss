@@ -1,0 +1,23 @@
+$font-family-sans-serif:                'Open Sans', sans-serif;
+$font-family-sans-serif-alt:            'Rubik', sans-serif;
+$font-family-base:                      $font-family-sans-serif !default;
+
+$font-size-h1:                          32px !default;
+$font-size-h2:                          29px !default;
+$font-size-h3:                          26px !default;
+$font-size-h4:                          23px !default;
+$font-size-h5:                          20px !default;
+$font-size-h6:                          18px !default;
+$font-size-base:                        16px !default;
+$font-size-small:                       14px !default;
+$font-size-smaller:                     13px !default;
+$font-size-smallest:                    12px !default;
+
+$font-weight-light:                     300 !default;
+$font-weight-regular:                   400 !default;
+$font-weight-semibold:                  600 !default;
+$font-weight-bold:                      700 !default;
+$font-weight-base:                      $font-weight-regular !default;
+
+$line-height-base:                      1.4 * $font-size-base !default;
+$line-height-small:                     1.4 * $font-size-small !default;

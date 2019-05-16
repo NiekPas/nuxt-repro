@@ -1,0 +1,33 @@
+//== Grid
+
+$grid-breakpoints: (
+  mobile: 0,
+  tablet: 970px,
+  desktop: 1170px,
+) !default;
+
+$container-max-widths: (
+  mobile: 540px,
+  tablet: 720px,
+  desktop: 1140px
+) !default;
+
+$grid-columns:                          12 !default;
+$grid-gutter-width:                     30px !default;
+
+//== before edit:
+
+// $grid-breakpoints: (
+//   mobile: 0,
+//   tablet: 768px,
+//   desktop: 1200px,
+// ) !default;
+
+// $container-max-widths: (
+//   mobile: 540px,
+//   tablet: 720px,
+//   desktop: 1140px
+// ) !default;
+
+// $grid-columns:                          12 !default;
+// $grid-gutter-width:                     30px !default;

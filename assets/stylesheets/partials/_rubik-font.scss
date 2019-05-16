@@ -1,0 +1,23 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Rubik Regular '),
+    local('Rubik-Regular'),
+    url('~typeface-rubik/files/rubik-latin-400.woff2') format('woff2'),
+    url('~typeface-rubik/files/rubik-latin-400.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local('Rubik Medium'),
+    local('Rubik-Medium'),
+    url('~typeface-rubik/files/rubik-latin-500.woff2') format('woff2'),
+    url('~typeface-rubik/files/rubik-latin-500.woff') format('woff');
+}
